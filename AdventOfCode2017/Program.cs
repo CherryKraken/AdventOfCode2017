@@ -10,7 +10,7 @@ namespace AdventOfCode2017
     {
         static void Main(string[] args)
         {
-            var d = new Day5();
+            var d = new Day7();
             Console.WriteLine(d.Solve());
             Console.WriteLine(d.Solve2());
         }

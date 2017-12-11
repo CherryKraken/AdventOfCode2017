@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Graph">
+      <HintPath>G:\COSC 286\Projects\Graph\Graph\bin\Debug\Graph.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,6 +53,7 @@
     <Compile Include="Day4.cs" />
     <Compile Include="Day5.cs" />
     <Compile Include="Day6.cs" />
+    <Compile Include="Day7.cs" />
     <Compile Include="FileLoader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,6 +68,13 @@
     <Content Include="day5.txt" />
     <Content Include="day6.txt" />
     <Content Include="day4.txt" />
+    <Content Include="day7.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\COSC 286\Projects\Graph\GraphAdjacencyList\GraphAdjacencyList.csproj">
+      <Project>{afc5b10f-5789-43a6-8125-1e90cc22cac3}</Project>
+      <Name>GraphAdjacencyList</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2017", "AdventOfCode2017\AdventOfCode2017.csproj", "{2431580E-2D7C-421B-A7EC-E802742972A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphAdjacencyList", "G:\COSC 286\Projects\Graph\GraphAdjacencyList\GraphAdjacencyList.csproj", "{AFC5B10F-5789-43A6-8125-1E90CC22CAC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2431580E-2D7C-421B-A7EC-E802742972A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2431580E-2D7C-421B-A7EC-E802742972A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2431580E-2D7C-421B-A7EC-E802742972A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC5B10F-5789-43A6-8125-1E90CC22CAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC5B10F-5789-43A6-8125-1E90CC22CAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC5B10F-5789-43A6-8125-1E90CC22CAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC5B10F-5789-43A6-8125-1E90CC22CAC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
